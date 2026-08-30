@@ -1,0 +1,27 @@
+package Assignment_2;
+import java.util.*;
+public class Busticketfare {
+	public static int BusTicket(int age) {
+		if (age < 5)
+		    return 0;
+		else if (age >= 5 && age <= 12)
+		    return 20;
+		else if (age >= 13 && age <= 59)
+		    return 40;
+		else
+		    return 25;
+			
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your age : ");
+		int age = sc.nextInt();
+		
+		System.out.println("Enter your name : ");
+		String name = sc.next();
+		
+		System.out.println(" This is your Fare "+BusTicket( age));
+		
+	}
+}
