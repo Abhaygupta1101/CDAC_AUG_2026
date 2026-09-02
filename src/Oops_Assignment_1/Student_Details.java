@@ -1,5 +1,5 @@
 
-package Assigment_4;
+package Oops_Assignment_1;
 
 public class Student_Details {
 
