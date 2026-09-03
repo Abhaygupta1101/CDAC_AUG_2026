@@ -29,7 +29,7 @@ public class Student_Details {
 
             System.out.println("RollNo : " + rollNo);
             System.out.println("Name : " + name);
-            System.out.println("Marks : " + marks);
+            System.out.println("Marksss : " + marks);
 
             calculateGrade();
 
