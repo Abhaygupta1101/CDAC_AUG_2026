@@ -1,41 +1,53 @@
 package Assignment_2;
 import java.util.*;
 public class Simple_Calculator {
-	public static double Calculater(double num1, double num2, char operatr) {
-		if(operatr == '+')
-			return num1 + num2;
-		else if (operatr == '-')
-			return num1 - num2;
-		else if(operatr =='*')
-			return num1 * num2;
-		else if(operatr == '/') {
-			if(num2 ==0) {
-				System.out.println("Cannot divid by zero " );
-		    
-			return 0;
-	}
-		return num1 / num2;
-	}
-			else {
-				System.out.println("Invalid operator");
-		    return 0;
-			}
+  public static double calculate(double a, double b, char operator) {
+	    double result =0;
+	  
+	  if(operator == '+') {
+		  result = a+b;
+	  }
+	  
+	  else if(operator == '-') {
+		  result = a-b;
+	  }
+	  
+	  else if(operator == '*') {
+		  result = a*b;
+	  }
+	  
+	  else if(operator == '/') {
+		  result = a/b;
+	  }
+	  
+	  else if(operator == '%') {
+		  result = a%b;
+	  }
+	  else {
+		  System.out.println("Operator is not valid ");
+	  }
+	  
+	  
+	  return result;
+   	  
+  }
+  public static void main(String[] args ) {
+	  Scanner sc =new Scanner(System.in);
+	  
+	   System.out.println("Enter the first number");
+	   double a = sc.nextDouble();
+	   
+	   
+	   System.out.println("Enter the second number");
+	   double b = sc.nextDouble();
+	   
+	   
+	   System.out.println("Enter the Operator (_+, _ *,%, /) ");
+	  char ope = sc.next().charAt(0);
+	   
+	  double cc = calculate(a, b, ope);
+	  System.out.println("result " + cc);
+	  
+  }
+	
 }
-
-	public static void main(String[] args ) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the value ");
-		System.out.print("Enter the  first value : ");
-		double num1 = sc.nextDouble();
-		System.out.print("Enter the  second value : ");
-	    double num2 =sc.nextDouble();	
-	    System.out.println("Enter the operator '+', '-', '*','/' : ");
-	    char operator = sc.next().charAt(0);
-	    double result = Calculater(num1, num2, operator);
-	    System.out.println("result " +result);
-	}
-
-
-	}
-
-

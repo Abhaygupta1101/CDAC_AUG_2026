@@ -21,19 +21,19 @@ public class EmployeeCall {
 	
 	System.out.println("Employee 1 ");
 	e1.display(); 
-	e1.calcu();
+	e1.calculateBonus();
 	
 	System.out.println("Employee 2 ");
 	e2.display(); 
-	e2.calcu();
+	e2.calculateBonus();
 	
 	System.out.println("Employee 3 ");
 	e3.display(); 
-	e3.calcu();
+	e3.calculateBonus();
 
 	System.out.println("Employee 4 ");
 	e4.display(); 
-	e4.calcu();
+	e4.calculateBonus();
 	
 }
 }
