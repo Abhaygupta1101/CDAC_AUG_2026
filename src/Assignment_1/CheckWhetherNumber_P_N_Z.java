@@ -1,6 +1,6 @@
 package Assignment_1;
 import java.util.*;
-public class CheckWhether {
+public class CheckWhetherNumber_P_N_Z {
 	public static void main(String[] args ) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number : ");

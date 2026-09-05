@@ -3,16 +3,22 @@ import java.util.*;
 public class Simple_intrest {
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
-	System .out.print("Enter the principal : ");
+	System.out.println("Enter the detaile ");
+	
+	System.out.println("Enter the principal : ");
 	double p = sc.nextDouble();
-	System .out.print("Enter the rate : ");
+	
+	System.out.println("Enter the rate of Intrest  : ");
 	double r = sc.nextDouble();
-	System .out.print("Enter the time in year : ");
+	
+	System.out.println("Enter the time : ");
 	double t = sc.nextDouble();
-	double intrest = p * r*t;
-	double Amount = p + intrest;
-	System .out.println("This is your intrest : " + intrest);
-	System .out.println(" This is your Amount : " + Amount );
+	
+	double simpleIntrest = (p*r*t)/100;
+	System.out.println("Simple intrest : " + simpleIntrest);
+	
+	 double Amount = p + simpleIntrest;
+	 System.out.println( "Amount  "+ Amount);
 	
 }
 }
