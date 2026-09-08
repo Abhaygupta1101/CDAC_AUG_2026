@@ -1,4 +1,4 @@
-package Oops_Assi_Inheritance;
+package Assignment_5;
 import java.util.*;
 class Vehicle{
 	String vehicleNo;

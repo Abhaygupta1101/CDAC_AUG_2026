@@ -1,4 +1,4 @@
-package PolymorphismAndAbstraction;
+package Assignment_6;
 
 
 interface Notification {

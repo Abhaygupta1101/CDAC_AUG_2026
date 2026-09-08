@@ -1,4 +1,4 @@
-package Oops_Assignment_1;
+package Assignment_4;
 
 public class ElectricityBill2 {
 int consumerNo;

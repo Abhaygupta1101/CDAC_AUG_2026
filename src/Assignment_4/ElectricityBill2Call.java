@@ -1,4 +1,4 @@
-package Oops_Assignment_1;
+package Assignment_4;
 import java.util.*;
 public class ElectricityBill2Call {
 	public static void main(String[] args) {
